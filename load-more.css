@@ -1,0 +1,16 @@
+/* AJAX loading */
+.js-load-more {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3rem;
+	text-align: center;
+	margin-top: 3em;
+	font-size: 1.25em;
+	color: var(--dark-gray);
+
+	/* Hide text if content is loaded */
+	&.js-loaded {
+		visibility: hidden;
+	}
+}
